@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magebit Test Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Magebit Test Site</title>
 </head>
 <body>
-  <div>Pineapple</div>
+        <div class="base">
+            <div class="top_bar">
+                <img src="" alt="Pineapple logo" id="logo_pineapple"> 
+                <div id="top_links">
+                    <a href="#">About</a>
+                    <a href="#">How it works</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="content_box">
+                <div class="text1">Subscribe to newsletter</div>
+                <div class="text2">Subscribe to our newsletter and get 10% discount on pineapple glasses.</div>
+                <label class="container">I agree to <a href="#"><span id="terms">terms of service</span></a>
+                    <input type="checkbox" checked="checked" id="terms_service">
+                    <span class="checkmark"></span>
+                </label>
+                <div id="line1"><hr></div>
+                <div id="social_media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube-play"></a>
+                </div>
+            </div>
+        </div>
+    
+    <form action="" method="POST" id="email_input">
+            <input id="mail" name="mail"  type="email" required placeholder="Type your email address here…"/><button id="submit" type="submit" value="" disabled></button>
+        </form>
+    
+        <img class="image_pineapple" src="img/bg_pineapple_desktop.png" alt="Summer pineapple"> 
+        
+    <script src="scripts/index.js"></script>
 </body>
 </html>
