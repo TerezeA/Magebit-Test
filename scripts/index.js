@@ -31,6 +31,6 @@ email.addEventListener("input", function (event) {
 });
 
 submitForm.addEventListener("submit", function(event) {
-    e.preventDefault;
+    event.preventDefault;
     alert("Test");
   });
